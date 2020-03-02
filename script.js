@@ -95,3 +95,4 @@ function clock4() {
   MINUTEHANDCOLOR.setAttribute("style", "stroke: #212F3C;");
   SECONDHANDCOLOR.setAttribute("style", "stroke: #154360;");
 }
+

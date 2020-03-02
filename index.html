@@ -5,16 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>A Digital Analog Clock</title>
-    <link rel="stylesheet" href="style.css" type="text/css" media="all">
+    <link rel="stylesheet" href="./styles/style.css" type="text/css" media="all">
+    <link rel="stylesheet" href="./styles/all.css">
+    <link rel="stylesheet" href="./styles/brands.css">
+    <link rel="stylesheet" href="./styles/fontawesome.css">
+    <link rel="stylesheet" href="./styles/regular.css">
+    <link rel="stylesheet" href="./styles/solid.css">
+    <link rel="stylesheet" href="./styles/svg-with-js.css">
+    <link rel="stylesheet" href="./styles/v4-shims.css">
+    <link rel="stylesheet" href="./styles/all.min.css">
+    <link rel="stylesheet" href="./styles/brands.min.css">
+    <link rel="stylesheet" href="./styles/fontawesome.min.css">
+    <link rel="stylesheet" href="./styles/regular.min.css">
+    <link rel="stylesheet" href="./styles/solid.min.css">
+    <link rel="stylesheet" href="./styles/svg-with-js.min.css">
+    <link rel="stylesheet" href="./styles/v4-shims.min.css">
+
     <script src="script.js" defer></script>
 </head>
 
 <body>
-<div class="topnav">
-        <a href="#clock1" onclick="clock1()">Clock 1</a>
-        <a href="#clock2" onclick="clock2()">Clock 2</a>
-        <a href="#clock3" onclick="clock3()">Clock 3</a>
-        <a href="#clock4" onclick="clock4()">Clock 4</a>
+<div class="nav">
+    <button onclick="clock1()" class="button" id="clock1"></button>
+    <button onclick="clock2()" class="button" id="clock2"></button>
+    <button onclick="clock3()" class="button" id="clock3"></button>
+    <button onclick="clock4()" class="button" id="clock4"></button>
 </div>
 <main class="main">
     <div class="clockbox">
