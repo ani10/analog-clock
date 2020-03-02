@@ -80,3 +80,18 @@ function clock3() {
   MINUTEHANDCOLOR.setAttribute("style", "stroke: orange;");
   SECONDHANDCOLOR.setAttribute("style", "stroke: #154360;");
 }
+
+function clock4() {
+  BACKGROUND.setAttribute("style","background-color: #873600;");
+
+  OUTERCIRCLE.setAttribute("style", "stroke: #6E2C00;");
+  BORDERFACE.setAttribute("style", "fill: #E67E22;");
+  FACE.setAttribute("style", "fill: #D35400;")
+
+  HOURMARKSCIRCLE.setAttribute("style", "stroke: #154360;");
+
+  MIDCIRCLE.setAttribute("style", "fill: #154360;");
+  HOURHANDCOLOR.setAttribute("style", "stroke: #212F3C;");
+  MINUTEHANDCOLOR.setAttribute("style", "stroke: #212F3C;");
+  SECONDHANDCOLOR.setAttribute("style", "stroke: #154360;");
+}

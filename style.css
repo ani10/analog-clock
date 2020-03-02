@@ -1,4 +1,8 @@
 /* Layout */
+body{
+    margin: 0%;
+    overflow: hidden;
+}
 .main {
     display: flex;
     padding: 2em;
