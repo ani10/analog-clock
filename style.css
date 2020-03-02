@@ -64,6 +64,11 @@
     transform-origin: 300px 300px;
     transition: transform .5s ease-in-out;
 }
+
+.face,
+.border-face {
+    fill:white;
+}
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
