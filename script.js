@@ -13,6 +13,8 @@ const HOURHANDCOLOR = document.querySelector(".hour-arm");
 const MINUTEHANDCOLOR = document.querySelector(".minute-arm");
 const SECONDHANDCOLOR = document.querySelector(".second-arm");
 
+const MENUBUTTON = document.querySelector(".menu");
+const NAVIGATION = document.querySelector(".nav");
 
 
 var date = new Date();
@@ -96,3 +98,9 @@ function clock4() {
   SECONDHANDCOLOR.setAttribute("style", "stroke: #154360;");
 }
 
+// function openNav(){
+//   NAVIGATION.style.width="60px";
+// }
+// function closeNav(){
+//   NAVIGATION.style.width="0px";
+// }
