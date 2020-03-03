@@ -9,7 +9,7 @@ body{
 }
 .main {
     display: flex;
-    padding: 2em;
+    margin-left: 60px;
     height: 100vh;
     justify-content: center;
     align-items: middle;
